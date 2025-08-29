@@ -121,8 +121,9 @@ body {
   body {
     overflow: hidden;
   }
-  .header__logo--link{
-    width: 70%!important;
+
+  .onlymobile{
+    width: 70% !important;
   }
 }
 
@@ -15821,7 +15822,7 @@ body.index-sc h6 {
 }
 
 .rts-section-padding {
-  padding: 120px 0;
+  padding: 90px 0;
 }
 
 @media screen and (max-width: 992px) {
@@ -16071,6 +16072,7 @@ body.index-sc h6 {
     align-items: flex-start;
     margin-bottom: 30px;
   }
+
   .rts__section--wrapper {
     flex-direction: column;
     align-items: flex-start;
@@ -16478,10 +16480,10 @@ body.index-sc h6 {
 }
 
 .program .rts__section--wrapper .rts-theme-btn {
-  border-radius: 30px;
-  transform: rotate(-50deg);
-  margin-left: 170px;
-  margin-top: -30px;
+  /* border-radius: 30px; */
+  /* transform: rotate(-50deg); */
+  /* margin-left: 170px; */
+  margin-top: 20px;
 }
 
 @media screen and (max-width: 992px) {
@@ -26073,8 +26075,9 @@ body.index-sc h6 {
     border-radius: 20px;
     text-align: center;
   }
-  .rts-funfact-wrapper p{
-   font-size: 20px;
+
+  .rts-funfact-wrapper p {
+    font-size: 20px;
   }
 }
 
@@ -29002,5 +29005,58 @@ body.index-sc h6 {
   width: 368px;
   object-fit: cover;
   height: 400px;
-  border-radius:20px;
+  border-radius: 20px;
+}
+
+.gradient {
+  background: linear-gradient(335deg, #ffb196 0%, #ffffff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* btn */
+.whatsapp-button {
+  position: fixed;
+  bottom: 80px;
+  right: 30px;
+  background-color: #25D366;
+  color: white;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  text-decoration: none;
+}
+
+.call-button {
+  position: fixed;
+  bottom: 140px;
+  right: 30px;
+  background-color: #2542d3;
+  color: white;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  text-decoration: none;
+}
+
+.whatsapp-button:hover {
+  background-color: #20b25d;
+}
+
+.whatsapp-icon {
+  font-size: 30px;
+}
+
+.call-icon {
+  font-size: 25px;
 }
