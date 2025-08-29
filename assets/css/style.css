@@ -121,6 +121,9 @@ body {
   body {
     overflow: hidden;
   }
+  .header__logo--link{
+    width: 70%!important;
+  }
 }
 
 body::before {
@@ -16068,6 +16071,11 @@ body.index-sc h6 {
     align-items: flex-start;
     margin-bottom: 30px;
   }
+  .rts__section--wrapper {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 30px;
+  }
 }
 
 .rts__section--wrapper.v__2 {
@@ -17004,7 +17012,7 @@ body.index-sc h6 {
 
 @media screen and (max-width: 768px) {
   .tution__single--box {
-    padding: 40px;
+    padding: 30px 25px;
   }
 }
 
@@ -19346,7 +19354,7 @@ body.index-sc h6 {
 @media screen and (max-width: 992px) {
   .banner.v__2 .banner__wrapper .banner__slides--content--title {
     text-align: left;
-    line-height: 50px;
+    line-height: 30px;
   }
 }
 
@@ -26061,7 +26069,12 @@ body.index-sc h6 {
 
 @media screen and (max-width: 768px) {
   .rts-funfact-wrapper {
-    padding: 40px;
+    padding: 35px;
+    border-radius: 20px;
+    text-align: center;
+  }
+  .rts-funfact-wrapper p{
+   font-size: 20px;
   }
 }
 
@@ -26082,7 +26095,7 @@ body.index-sc h6 {
 }
 
 .rts-funfact-wrapper .single-cta-item {
-  max-width: 200px;
+  max-width: 220px;
   position: relative;
 }
 
